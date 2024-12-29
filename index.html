@@ -23,18 +23,62 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         h2 {
             color: #666;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service-item {
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 3px;
+        }
+        .contact-info {
+            background-color: #eee;
+            padding: 15px;
+            border-radius: 3px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to New Society</h1>
-    <p>This is a simple test page for our project.</p>
+    
     <div class="content">
         <h2>About Us</h2>
         <p>We're building something amazing here!</p>
+        
+        <h2>Our Mission</h2>
+        <p>To create innovative solutions that make a positive impact on society through technology and collaboration.</p>
+        
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Innovation Labs</h3>
+                <p>Cutting-edge research and development</p>
+            </div>
+            <div class="service-item">
+                <h3>Community Building</h3>
+                <p>Creating connections that matter</p>
+            </div>
+            <div class="service-item">
+                <h3>Technology Solutions</h3>
+                <p>Modern solutions for modern problems</p>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Email: info@newsociety.test</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Innovation Street, Tech City, TC 12345</p>
+        </div>
     </div>
 </body>
 </html>
